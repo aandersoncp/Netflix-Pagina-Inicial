@@ -4,11 +4,12 @@ body{
     background-position: top center;
     margin: 0px;
     padding: 0px;
+    display: block;
 }
 
 .header {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 40px;
+    height: 120px;
     padding: 0px 150px;
     display: flex;
     text-decoration: none;
@@ -24,16 +25,21 @@ body{
 
 #foto{
     width: 180px;
-    padding-top: 10px;
+    padding-top: 0px;
+}
+
+.div_idiomas{
+    padding-right: 30px;
 }
 
 .opcoes{
-    padding: 35px 20px;
-    justify-content: space-around;
+    padding-top: 30px;
+    justify-content: space-between;
+    display: flex;
 }
 
 #idiomas{
-    height: 40px;
+    height: 35px;
     width: 150px;
     color: inherit;
     border-style: solid;
@@ -45,13 +51,14 @@ body{
     text-decoration: none;
     text-align: center;
     font-weight: bold;
+    font-size: 15px;
 }
 
 #entrar{
     padding: 5px;
     font-size: 15px;
-    height: 40px;
-    width: 60px;
+    height: 35px;
+    width: 70px;
     background-color: red;
     justify-content: space-around;
     border-style: solid;
@@ -76,11 +83,11 @@ body{
 .content-of-middle{  
     color: white;
     margin: 0px;
-    padding: 130px 70px;
+    padding: 50px 70px 150px 70px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     justify-content: center;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .content-of-middle .content-minor{
