@@ -6,13 +6,59 @@ body{
 .header{
     background-color: #131921;
     height: 50px;
+    display:flex;
 }
 
 #logo{
     height: 50px;
+    width: 120px;
+    padding-left: 20px;
 }
 
 #foto{
     height: 30px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.entrega{
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+    padding-top: 7px;
+    height: 30px;
+}
+
+.enviar{
+    padding-left: 20px;
+}
+
+.cep {
     padding-top: 0px;
+    display: flex;
+    font-size: 15px;
+}
+
+#pino {
+    height: 20px;
+    padding-top: 0px;
+}
+
+#cep{
+    padding-top: 3px;
+}
+
+#formulario{
+    padding-left: 10px;
+    padding-top: 0px;
+    height: 40px;
+}
+
+#opcoes{
+    padding-left: 10px;
+    height: 40px;
+}
+
+#busca{
+    height: 36px;
 }
